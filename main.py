@@ -3,7 +3,7 @@ import os
 import cv2
 import numpy as np
 
-
+# ADD IMAGES TO TEST IN THE IMAGES FOLDER IN THE PROJECT, ALL OF THE IMAGES ADDED WILL BE SHOWN ALONG A HSV THRESHOLDING MENU.
 def nothing(x):
     pass
 
