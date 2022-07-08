@@ -14,7 +14,8 @@ for filename in os.listdir("images"):
     f = os.path.join("images", filename)
     # checking if it is a file
     if os.path.isfile(f):
-        images.append(cv2.imread('images/img_1.jpg'))
+        string = "images/" + filename
+        images.append(cv2.imread(string))
 
 
 # Create a window
